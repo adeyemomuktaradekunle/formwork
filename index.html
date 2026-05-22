@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Create your Account</h1>
+    <form action="">
+        <label for="UserName">UserName</label>
+        <input type="text" id="UserName" required placeholder="choose a username">
+        <label for="Email">Email</label>
+        <input type="Email" id="Email" required placeholder="your.email@example.com">
+        <label for="Password">Password</label>
+        <input type="password" id="password" required placeholder="atleast 8 characters">
+        <div class="form-row">
+         <div class="form-group">
+         <label for="Age">age</label>
+         <input type="number" id="age" required placeholder="18">
+         </div>
+         <div class="form-group">
+            <label for="phone">phone number</label>
+            <input type="tel" id="phone" placeholder="+234 800 000 3400">
+         </div>
+        </div>
+        <label for="country">country</label>
+        <select name="country" id="country" required>
+        <option value="">select country</option>
+        <option value="NG">nigeria</option>
+        <option value="GH">ghana</option>
+        <option value="KE">kenya</option>
+        <option value="ZA">south africa</option>
+        <option value="other">other</option>
+        </select>
+        <div class="checkbox-group">
+         <input type="checkbox" id="terms" required>
+         <label for="terms">i agree to the <a href="#">terms of service</a> and <a href="#">privacy policy</a></label>
+        </div>
+        <button type="submit">sign in</button>
+    </form>
+</body>
+</html>
